@@ -1,0 +1,16 @@
+{
+  "name": "JSON Mode Test",
+  "version": "1.0.0",
+  "description": "Testing JSON parsing and validation",
+  "features": [
+    "JSON creation",
+    "JSON validation",
+    "JSON parsing"
+  ],
+  "config": {
+    "debug": true,
+    "environment": "test",
+    "maxRetries": 3
+  },
+  "timestamp": "2025-09-08T14:52:28.947Z"
+}
