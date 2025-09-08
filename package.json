@@ -1,0 +1,12 @@
+{
+  "name": "json-mode-test",
+  "version": "1.0.0",
+  "description": "Testing JSON mode functionality after fix",
+  "main": "json-test.js",
+  "scripts": {
+    "test": "node json-test.js"
+  },
+  "keywords": ["json", "test", "validation"],
+  "author": "Peerbot",
+  "license": "MIT"
+}
