@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Message Test</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="welcome-card" id="welcomeCard">
+            <h1 class="welcome-title">Welcome! 👋</h1>
+            <p class="welcome-text">We're excited to have you here. This is a test of the welcome message flow.</p>
+            <button class="welcome-button" onclick="showUserForm()">Get Started</button>
+        </div>
+
+        <div class="user-form hidden" id="userForm">
+            <h2>Tell us about yourself</h2>
+            <input type="text" id="userName" placeholder="Enter your name" class="input-field">
+            <input type="email" id="userEmail" placeholder="Enter your email" class="input-field">
+            <button class="submit-button" onclick="submitUserInfo()">Continue</button>
+        </div>
+
+        <div class="success-message hidden" id="successMessage">
+            <h2>Welcome <span id="displayName"></span>! 🎉</h2>
+            <p>Your journey begins now. Thank you for joining us!</p>
+            <button class="reset-button" onclick="resetFlow()">Test Again</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
